@@ -1,0 +1,29 @@
+
+#column{
+    float: left;
+    background: bisque;
+    width: 400px;
+    
+    }
+    #main{
+    border: 1px solid green;
+    background: aqua;
+    }
+    @media(min-width: 601px){
+    #contentcolumn{
+        background: darkgrey;
+        margin-left: 405px;
+        margin-right: 5px;
+    }
+    }
+     @media(max-width: 600px){
+    #column{
+        width: 120px;    
+        }
+    #contentcolumn{
+    clear: left;
+    width: 300px;
+    background: darkgray;
+    top: 50px;
+    }
+}

@@ -1,0 +1,32 @@
+#column{
+    float: left;
+    background: bisque;
+    width: 400px;
+    
+    }
+    #main{
+    border: 1px solid green;
+    background: aqua;
+    }
+
+    #contentcolumn{
+        background: darkgrey;
+        overflow: auto;
+    }
+
+     @media(max-width: 600px){
+    #column{
+        background: none;
+        width: 100%;
+        }
+    ul{
+        background: bisque;
+    }
+    li{
+        display: inline;
+    }
+    #contentcolumn{
+    clear: left;
+    top: 50px;
+    }
+}

@@ -1,0 +1,15 @@
+body{
+ color: white;
+}
+#text1
+{
+margin: 0px 510px;
+background: green;
+}
+
+#text2
+{
+margin: 30px 465px 0px 465px;
+background: blue;
+padding: 3%;
+}

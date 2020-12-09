@@ -1,0 +1,13 @@
+body{
+    margin:0;
+    padding:0;
+}
+    #main{
+    height: 265px;
+    background: aqua; 
+    margin: 10px;
+    border: 1px solid forestgreen;
+}
+img {
+    float: right;
+}

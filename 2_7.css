@@ -1,0 +1,44 @@
+body{
+    color: white;
+}
+#text1{
+position: static;
+background:blueviolet ;
+height: 100px; 
+width: 160px;
+}
+#text2{
+position: relative;
+background: darkred;
+height: 100px; 
+width: 160px;
+}
+#text3{
+position: relative;
+background: peru;
+height: 100px; 
+width: 160px;
+left: 30px;
+bottom: 30px;
+}
+#text4{
+position: relative;
+background: indianred;
+height: 400px; 
+width: 600px;
+}
+#text5{
+position: absolute;
+background: indigo;
+height: 180px;
+width: 300px;
+left: 300px;
+top: 150px;
+}
+#text6{
+position: fixed;
+background: forestgreen;
+height: 100px;
+right: 0%;
+bottom: 0%;
+}

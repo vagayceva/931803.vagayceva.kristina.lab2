@@ -1,0 +1,28 @@
+   body{
+       margin: 0px;
+       padding: 0px;
+   }
+   #onecolumn{
+    background: bisque;
+    width: 200px;
+    float: left;
+    }
+    #twocolumn{
+    background: aqua;
+    }
+    #contentcolumn{
+    margin-left: 200px;
+    background: darkgray;
+    }
+    
+    #foot{
+    position: fixed;
+    background: limegreen;
+    height: 50px;
+    bottom: 0%;
+    clear: both;
+    width: 100%;
+    }
+    
+    
+    

@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    padding:0;
+    color: white;
+}
+    #main{
+    width: 600px; 
+    margin: 0 auto;
+    background: blue; 
+}
+    @media (max-width: 600px){
+        #main{
+        width: 100%;
+        }
+    }
+  

@@ -1,0 +1,29 @@
+#column{
+    float: left;
+    background: bisque;
+    width: 400px;
+    
+    }
+    #main{
+    border: 1px solid green;
+    background: aqua;
+    
+    }
+    #contentcolumn{
+        background: darkgrey;
+       overflow: auto;
+    }
+    img{
+        float: right;
+        width: 50%;
+        height: 50%;
+    }
+    #text{
+        clear: both;
+    }
+    @media(max-width: 700px){
+        #column{
+            width: 120px;
+        }
+
+    }

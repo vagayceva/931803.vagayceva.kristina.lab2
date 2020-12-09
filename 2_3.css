@@ -1,0 +1,11 @@
+body{
+    margin:0;
+    padding:0;
+    color: white;
+}
+    #main{
+    width: 600px; 
+    margin: 0 auto;
+    background: blue; 
+}
+    
